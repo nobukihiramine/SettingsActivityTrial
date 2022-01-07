@@ -1,0 +1,51 @@
+<PreferenceScreen xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <PreferenceCategory app:title="Color settings">
+
+        <com.hiramine.settingsactivitytrial.DisplayValueColorPreference
+            app:key="hoge_color"
+            app:defaultValue="#FF0088"
+            app:title="Hoge color"
+            app:summary="Set the color of Hoge." />
+
+    </PreferenceCategory>
+
+    <PreferenceCategory app:title="My settings">
+
+        <CheckBoxPreference
+            app:key="foo_function"
+            app:defaultValue="false"
+            app:title="Foo function"
+            app:summary="Whether to enable or disable Foo function." />
+
+        <SwitchPreference
+            app:key="bar_function"
+            app:defaultValue="true"
+            app:title="Bar function"
+            app:summary="Whether to enable or disable Bar function." />
+
+        <com.hiramine.settingsactivitytrial.DisplayValueEditTextPreference
+            app:key="baz_name"
+            app:defaultValue="Baaaz"
+            app:title="Baz name"
+            app:summary="Set the name of Baz." />
+
+        <com.hiramine.settingsactivitytrial.DisplayValueListPreference
+            app:key="qux_type"
+            app:defaultValue="2"
+            app:entries="@array/entries_qux_type"
+            app:entryValues="@array/values_quex_type"
+            app:title="Qux type"
+            app:summary="Set the type of Baz." />
+
+        <com.hiramine.settingsactivitytrial.DisplayValueMultiSelectListPreference
+            app:key="corge_options"
+            app:defaultValue="@array/default_corge_options"
+            app:entries="@array/entries_corge_options"
+            app:entryValues="@array/values_corge_options"
+            app:title="Corge options"
+            app:summary="Set the options of Corge." />
+
+    </PreferenceCategory>
+
+</PreferenceScreen>
