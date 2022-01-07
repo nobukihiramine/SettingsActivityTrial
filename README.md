@@ -19,8 +19,8 @@
 
 ## Screenshots : スクリーンショット
 <kbd><img src="images/screenshot01.png" width="240"/></kbd>  
-<kbd><img src="images/screenshot02.png" width="240" alt="Screenshot"/></kbd> <kbd><img src="images/screenshot03.png" width="240" alt="Screenshot"/></kbd> <kbd><img src="images/screenshot04.png" height="240" alt="Screenshot"/></kbd> <kbd><img src="images/screenshot05.png" height="240" alt="Screenshot"/></kbd>  
-<kbd><img src="images/screenshot06.png" height="240" alt="Screenshot"/></kbd>
+<kbd><img src="images/screenshot02.png" width="240" alt="Screenshot"/></kbd> <kbd><img src="images/screenshot03.png" width="240" alt="Screenshot"/></kbd> <kbd><img src="images/screenshot04.png" width="240" alt="Screenshot"/></kbd> <kbd><img src="images/screenshot05.png" width="240" alt="Screenshot"/></kbd>  
+<kbd><img src="images/screenshot06.png" width="240" alt="Screenshot"/></kbd>
 
 ## Requirements : 必要条件、依存関係
 - Android Studio 2020.3.1 Patch3
