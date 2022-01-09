@@ -59,4 +59,12 @@ public class MySettingsActivity extends AppCompatActivity
 			}
 		}
 	}
+
+	// アクションバーの「←」ボタンの動作を、ナビゲーションバーの「Back」ボタンと同じにする
+	@Override
+	public boolean onSupportNavigateUp()
+	{
+		onBackPressed();
+		return true;
+	}
 }
